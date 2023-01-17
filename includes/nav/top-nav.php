@@ -1,5 +1,5 @@
 <nav>
-    <li class="nav-item"><a href="" class="nav-link">Home<?php $pageTitle == "home"; ?></a></li>
+    <li class="nav-item"><a href="<?php ?>" class="nav-link">Home<?php $pageTitle == "home"; ?></a></li>
     <li class="nav-item"><a href="" class="nav-link">Known Issues<?php $pageTitle == "knownIssues"; ?></a></li>
     <li class="nav-item"><a href="" class="nav-link">Fixed Issues<?php $pageTitle == "fixedIssues"; ?></a></li>
     <li class="nav-item"><a href="" class="nav-link">Work In Progress Issues<?php $pageTitle == "wipIssues"; ?></a></li>
