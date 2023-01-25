@@ -1,4 +1,7 @@
-<?php $pageTitle = "Home"; ?>
+<?php $pageTitle = "Home"; 
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,9 +12,8 @@
 </head>
 <body>
     <main>
-        <?php include "./includes/nav/top-nav.php"; ?>
-        <?php include "./includes/page.php"; ?>
-        <?php include "./includes/footer/footer.php"; ?>
+<?php include "./includes/page.php"; ?>
+        
     </main>
     
 </body>
